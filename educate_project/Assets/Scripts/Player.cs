@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿#define tn_Move
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +13,10 @@ public class Player : MonoBehaviour {
 
 	public float moveSpeed = 1.0f;
 	public float jumpSpeed = 1.0f;
+
+	public Vector2 speed = new Vector2 ( 10 , 10 );
+
+	private Vector2 movement = new Vector2 (1, 1);
 
 	void Awake()
 	{
@@ -25,13 +31,19 @@ public class Player : MonoBehaviour {
 
 	public void MoveLeft()
 	{
+		#if tn_Movex
 		player_rigid.AddForce (new Vector2 (-moveSpeed, 0) , ForceMode2D.Force);
+		#endif
+
 		player_anim.Play ("left");
 	}
 
 	public void MoveRight()
 	{
+		#if tn_Movex
 		player_rigid.AddForce (new Vector2 (moveSpeed, 0) , ForceMode2D.Force);
+		#endif
+
 		player_anim.Play ("right");
 	}
 
@@ -56,13 +68,28 @@ public class Player : MonoBehaviour {
 			MoveRight ();
 		else if (Input.GetKeyUp (KeyCode.RightArrow))
 			Release ();
+		
+		#if tn_Move
+		float inputX = Input.GetAxis ("Horizontal");
+		float inputY = Input.GetAxis ("Vertical");
 
-		if (Input.GetKeyDown (KeyCode.UpArrow))
+
+		movement = new Vector2 (speed.x * inputX, speed.y * inputY);
+
+		go_Player.transform.Translate ( new Vector3 ( movement.x , movement.y , 0 ) );
+
+		#endif
+		if (Input.GetKeyDown (KeyCode.UpArrow)) 
+		{
 			Jump ();
+
+
+		}
 
 
 		if (Input.GetKeyDown (KeyCode.KeypadEnter))
 			go_Player.transform.position = Vector3.zero;
 	}
+
 
 }

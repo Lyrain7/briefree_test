@@ -235,10 +235,10 @@
      <Compile Include="Assets\TK2DROOT\tk2dUI\Editor\Core\tk2dUISpriteAnimatorEditor.cs" />
      <None Include="Assets\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/project/educate_project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/project/educate_project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/software/unity/2018.1.9/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -478,34 +478,40 @@
  <HintPath>D:/software/unity/2018.1.9/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="DocsPinEditor">
- <HintPath>D:/project/educate_project/Assets/Editor/DocsPin/DocsPinEditor.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Editor/DocsPin/DocsPinEditor.dll</HintPath>
  </Reference>
  <Reference Include="esLibraryEditor">
- <HintPath>D:/project/educate_project/Assets/Editor/DocsPin/esLibraryEditor.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Editor/DocsPin/esLibraryEditor.dll</HintPath>
  </Reference>
  <Reference Include="Google.GData.Client">
- <HintPath>D:/project/educate_project/Assets/Editor/DocsPin/Google.GData.Client.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Editor/DocsPin/Google.GData.Client.dll</HintPath>
  </Reference>
  <Reference Include="Google.GData.Extensions">
- <HintPath>D:/project/educate_project/Assets/Editor/DocsPin/Google.GData.Extensions.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Editor/DocsPin/Google.GData.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.GData.Spreadsheets">
- <HintPath>D:/project/educate_project/Assets/Editor/DocsPin/Google.GData.Spreadsheets.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Editor/DocsPin/Google.GData.Spreadsheets.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/project/educate_project/Assets/Editor/DocsPin/Newtonsoft.Json.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Editor/DocsPin/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>D:/project/sample_git/educate_project/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTweenV1_Editor">
+ <HintPath>D:/project/sample_git/educate_project/Assets/HOTween/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="DocsPin">
- <HintPath>D:/project/educate_project/Assets/Plugins/DocsPin/DocsPin.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Plugins/DocsPin/DocsPin.dll</HintPath>
  </Reference>
  <Reference Include="esLibrary">
- <HintPath>D:/project/educate_project/Assets/Plugins/DocsPin/esLibrary.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Plugins/DocsPin/esLibrary.dll</HintPath>
  </Reference>
  <Reference Include="tk2dExternal">
- <HintPath>D:/project/educate_project/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/TK2DROOT/tk2d/Editor/tk2dExternal.dll</HintPath>
  </Reference>
  <Reference Include="tk2dSkin">
- <HintPath>D:/project/educate_project/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/TK2DROOT/tk2d/Editor/tk2dSkin.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Lyrain/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -524,12 +530,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Lyrain/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="HOTweenV1_Editor">
- <HintPath>D:/project/educate_project/Assets/HOTween/Plugins/Editor/HOTweenV1_Editor.dll</HintPath>
- </Reference>
- <Reference Include="HOTween">
- <HintPath>D:/project/educate_project/Assets/HOTween/Plugins/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/software/unity/2018.1.9/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

@@ -372,10 +372,10 @@
      <None Include="Assets\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
      <None Include="Assets\TK2DROOT\tk2d_demo\democameradata\source\democamerafont.fnt" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/project/educate_project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/project/educate_project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/software/unity/2018.1.9/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -572,11 +572,14 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/software/unity/2018.1.9/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="HOTween">
+ <HintPath>D:/project/sample_git/educate_project/Assets/HOTween/Plugins/HOTween.dll</HintPath>
+ </Reference>
  <Reference Include="DocsPin">
- <HintPath>D:/project/educate_project/Assets/Plugins/DocsPin/DocsPin.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Plugins/DocsPin/DocsPin.dll</HintPath>
  </Reference>
  <Reference Include="esLibrary">
- <HintPath>D:/project/educate_project/Assets/Plugins/DocsPin/esLibrary.dll</HintPath>
+ <HintPath>D:/project/sample_git/educate_project/Assets/Plugins/DocsPin/esLibrary.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Lyrain/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -586,9 +589,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Lyrain/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="HOTween">
- <HintPath>D:/project/educate_project/Assets/HOTween/Plugins/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/software/unity/2018.1.9/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
